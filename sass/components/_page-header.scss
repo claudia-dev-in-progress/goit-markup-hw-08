@@ -105,7 +105,6 @@ a.header-contact-details__link {
   }
   .page-header {
     align-items: center;
-    padding-left: 50px;
     justify-content: center;
   }
 }
@@ -113,7 +112,7 @@ a.header-contact-details__link {
   .header-contact-details__list {
     gap: $maingap;
     flex-direction: row;
-    margin-left: auto;
+    margin-left: 0 auto;
     align-items: center;
   }
 }

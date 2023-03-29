@@ -36,3 +36,11 @@
     display: none;
   }
 }
+@media screen and (min-width: 1200px) {
+  .third-section {
+    padding-inline-start: 0px;
+  }
+  .activities__list {
+    gap: 40px;
+  }
+}

@@ -21,27 +21,27 @@
   line-height: 1.71;
   letter-spacing: $mainletterspacing;
   color: $color_3;
-  padding-left: 70px;
   text-align: left;
 }
 
 @media screen and (min-width: 768px) {
   .second-section__list {
     display: grid;
-    grid-template-columns: repeat(2, 370px);
+    grid-template-columns: repeat(2, 354px);
     grid-auto-rows: auto;
-    gap: 30px;
-  }
-  .svg-box {
-    gap: 30px;
-  }
-  .values__description {
-    text-align: left;
-    padding-left: 10px;
-  }
-  .values__title {
-    text-align: left;
-    padding-left: 10px;
+    justify-content: space-between;
+    .svg-box {
+      width: 354px;
+      gap: 30px;
+      display: flex;
+      justify-content: center;
+    }
+    .values__description {
+      text-align: left;
+    }
+    .values__title {
+      text-align: left;
+    }
   }
 }
 
@@ -51,15 +51,15 @@
     gap: 30px;
     .svg-box {
       width: 270px;
-      padding-left: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
     .values__description {
       text-align: left;
-      padding: 0;
     }
     .values__title {
       text-align: left;
-      padding: 0;
     }
   }
 }
@@ -67,9 +67,9 @@
   background: $background-color_8;
   border: 1px $border-color_3;
   box-sizing: border-box;
-  width: 350px;
+  width: 450px;
   height: 120px;
-  padding-left: 150px;
-  padding-top: 20px;
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

@@ -25,7 +25,6 @@
   background: $background-color_8;
   padding-top: 94px;
   padding-bottom: 94px;
-  width: 100%;
 }
 
 .team__list {
@@ -84,5 +83,8 @@
 @media screen and (min-width: 1200px) {
   .team__list {
     flex-direction: row;
+  }
+  .forth-section {
+    background: $background-color_8;
   }
 }
