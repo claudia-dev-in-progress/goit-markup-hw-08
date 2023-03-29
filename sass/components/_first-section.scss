@@ -1,0 +1,27 @@
+@import "../utils/variables";
+
+.first-section__heading {
+  letter-spacing: 0.06em;
+  text-align: center;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  color: $color_1;
+  text-transform: uppercase;
+  padding-top: 50px;
+  padding-left: 250px;
+  padding-right: 250px;
+}
+.first-section {
+  padding-top: 70px;
+  background: $background-color_7;
+  height: 490px;
+  width: $mainwidth;
+  margin-bottom: 94px;
+  text-align: center;
+  background-image: url(./../images/team.jpg);
+  background-color: $background-color_1;
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
