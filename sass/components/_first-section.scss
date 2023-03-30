@@ -18,7 +18,7 @@
   height: 490px;
   margin-bottom: 94px;
   text-align: center;
-  background-image: url(./../../images/team-m-1x.png);
+  background-image: url(./../images/team-m-1x.png);
   background-color: $background-color_1;
   background-blend-mode: multiply;
   background-size: cover;
@@ -26,7 +26,7 @@
 }
 @media screen and (min-width: 768px) {
   .first-section {
-    background-image: url("./../../images/team-t-1x.jpg");
+    background-image: url("./../images/team-t-1x.jpg");
     background-color: $background-color_1;
   }
 
@@ -56,7 +56,7 @@
   screen and (min-resolution: 192dpi),
   screen and (min-resolution: 2dppx) {
   .first-section {
-    background-image: url("/images/team-m-2x.png");
+    background-image: url("./../images/team-m-2x.png");
     background-color: $background-color_1;
   }
 }
@@ -65,7 +65,7 @@
   screen and (min-width: 768px) and (min-resolution: 192dpi),
   screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .first-section {
-    background-image: url("/images/team-t-2x.jpg");
+    background-image: url("./../images/team-t-2x.jpg");
     background-color: $background-color_1;
   }
 }
@@ -74,7 +74,7 @@
   screen and (min-width: 1200px) and (min-resolution: 192dpi),
   screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .first-section {
-    background-image: url("/images/team-t-2x.jpg");
+    background-image: url("./../images/team-t-2x.jpg");
     background-color: $background-color_1;
   }
 }
