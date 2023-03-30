@@ -16,7 +16,6 @@
   padding-top: 70px;
   background: $background-color_7;
   height: 490px;
-  width: $mainwidth;
   margin-bottom: 94px;
   text-align: center;
   background-image: url(/images/team-m-1x.png);
@@ -42,6 +41,7 @@
   .first-section {
     background-image: url(./../images/team.jpg);
     background-color: $background-color_1;
+    height: 600px;
   }
   .first-section__heading {
     font-size: 44px;

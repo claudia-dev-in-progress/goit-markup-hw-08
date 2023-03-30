@@ -92,14 +92,14 @@
   margin-bottom: 32px;
 }
 
-.menu-contact__item,
-.menu-navigation__item:hover {
+.menu-navigation__link:hover {
   color: #2196f3;
 }
 
 .menu-list-contact {
-  margin-top: 200px;
+  margin-top: 400px;
   padding-inline-start: 0;
+  margin-bottom: 80px;
 }
 
 .menu-social-media__link {
@@ -124,4 +124,9 @@
 
 .menu-list {
   padding-inline-start: 0;
+}
+.vertical-line {
+  width: 22px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  transform: rotate(90deg);
 }
