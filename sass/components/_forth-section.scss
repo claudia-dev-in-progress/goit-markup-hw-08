@@ -40,6 +40,7 @@
     0px 2px 1px $color_16;
   border-radius: 4px;
   background: $background-color_4;
+  width: 450px;
 }
 .team__job-description {
   text-align: center;
@@ -78,13 +79,16 @@
     justify-content: space-evenly;
     padding: 0;
   }
+  .team__item {
+    width: 354px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
   .team__list {
     flex-direction: row;
   }
-  .forth-section {
-    background: $background-color_8;
+  .team__item {
+    width: 270px;
   }
 }
